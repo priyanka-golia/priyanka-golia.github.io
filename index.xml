@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Priyanka</title>
-    <link>https://priyanka-golia.github.io/</link>
-      <atom:link href="https://priyanka-golia.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Priyanka</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 19 May 2020 01:06:16 +0800</lastBuildDate>
     <image>
-      <url>https://priyanka-golia.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Priyanka</title>
-      <link>https://priyanka-golia.github.io/</link>
+      <link>/</link>
     </image>
     
     <item>
       <title>Manthan: A Data-Driven Approach for Boolean Function Synthesis</title>
-      <link>https://priyanka-golia.github.io/publication/cav20-manthan/</link>
+      <link>/publication/cav20-manthan/</link>
       <pubDate>Tue, 19 May 2020 01:06:16 +0800</pubDate>
-      <guid>https://priyanka-golia.github.io/publication/cav20-manthan/</guid>
-      <description></description>
+      <guid>/publication/cav20-manthan/</guid>
+      <description>&lt;hr&gt;
+</description>
     </item>
     
     <item>
-      <title>Manthan</title>
-      <link>https://priyanka-golia.github.io/project/manthan/</link>
-      <pubDate>Sat, 04 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://priyanka-golia.github.io/project/manthan/</guid>
-      <description>&lt;p&gt;Boolean functional synthesis is a fundamental problem in computer science with wide-ranging applications and has witnessed a surge of interest resulting in progressively improved techniques over the past decade. Despite intense algorithmic development, a large number of problems remain beyond the reach of the state of the art techniques. Motivated by the progress in machine learning, we propose Manthan, a novel data-driven approach to Boolean functional synthesis. Manthan views functional synthesis as a classification problem, relying on advances in constrained sampling for data generation, and advances in automated reasoning for a novel proof-guided refinement and provable verification.&lt;/p&gt;
-&lt;p&gt;Manthan significantly improves upon the current state of the art, solving 356 benchmarks in comparison to 280, which is the most solved by a state of the art technique; thereby, it demonstrate an increase of 76 benchmarks over the current state of the art. Furthermore, Manthan solves 60 benchmarks that none of the current state of the art techniques could solve.&lt;/p&gt;
+      <title>A Data-Driven Approach for Skolem Function Synthesis</title>
+      <link>/publication/live-tacas-20-manthan/</link>
+      <pubDate>Sun, 19 Apr 2020 01:06:16 +0800</pubDate>
+      <guid>/publication/live-tacas-20-manthan/</guid>
+      <description>&lt;hr&gt;
 </description>
     </item>
     

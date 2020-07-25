@@ -2,23 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Priyanka Golia | Priyanka</title>
-    <link>https://priyanka-golia.github.io/author/priyanka-golia/</link>
-      <atom:link href="https://priyanka-golia.github.io/author/priyanka-golia/index.xml" rel="self" type="application/rss+xml" />
+    <link>/author/priyanka-golia/</link>
+      <atom:link href="/author/priyanka-golia/index.xml" rel="self" type="application/rss+xml" />
     <description>Priyanka Golia</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 19 May 2020 01:06:16 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>https://priyanka-golia.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>/author/priyanka-golia/avatar_hud82d70f5f7f1e43172fb1c0859e15ea8_5388933_270x270_fill_q90_lanczos_center.JPG</url>
       <title>Priyanka Golia</title>
-      <link>https://priyanka-golia.github.io/author/priyanka-golia/</link>
+      <link>/author/priyanka-golia/</link>
     </image>
-    
-    <item>
-      <title>Manthan: A Data-Driven Approach for Boolean Function Synthesis</title>
-      <link>https://priyanka-golia.github.io/publication/cav20-manthan/</link>
-      <pubDate>Tue, 19 May 2020 01:06:16 +0800</pubDate>
-      <guid>https://priyanka-golia.github.io/publication/cav20-manthan/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
