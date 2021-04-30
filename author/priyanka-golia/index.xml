@@ -5,12 +5,20 @@
     <link>/author/priyanka-golia/</link>
       <atom:link href="/author/priyanka-golia/index.xml" rel="self" type="application/rss+xml" />
     <description>Priyanka Golia</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 19 May 2020 01:06:16 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 30 Apr 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Priyanka Golia</title>
       <link>/author/priyanka-golia/</link>
     </image>
+    
+    <item>
+      <title>Program Synthesis as Dependency Quantified Formula Modulo Theory</title>
+      <link>/publication/ijcai21/</link>
+      <pubDate>Fri, 30 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/ijcai21/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Manthan: A Data-Driven Approach for Boolean Function Synthesis</title>
