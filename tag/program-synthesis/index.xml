@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects | Priyanka</title>
-    <link>/project/</link>
-      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
-    <description>Projects</description>
+    <title>program synthesis | Priyanka</title>
+    <link>/tag/program-synthesis/</link>
+      <atom:link href="/tag/program-synthesis/index.xml" rel="self" type="application/rss+xml" />
+    <description>program synthesis</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 04 Jul 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Projects</title>
-      <link>/project/</link>
+      <title>program synthesis</title>
+      <link>/tag/program-synthesis/</link>
     </image>
     
     <item>
@@ -20,16 +20,6 @@
       <description>&lt;p&gt;Given a specification φ(X, Y ) over inputs X and output Y , defined over a background theory T, the problem of program synthesis is to design a program f such that Y = f (X) satisfies the specification φ. Over the past decade, syntax-guided synthesis (SyGuS) has emerged as a dominant approach to program synthesis where in addition to the specification φ, the end-user also specifies a grammar L to aid the underlying synthesis engine. This paper investigates the feasibility of synthesis techniques without grammar, a sub-class defined as T-constrained synthesis.
 We show that T-constrained synthesis can be reduced DQF(T), i.e., to the problem of finding a witness of a dependency quantified formula modulo theory. When the underlying theory is bitvectors, the corresponding DQF problem can be further reduced to Dependency Quantified Boolean Formulas (DQBF). We rely on the progress in DQBF solving to design DQBF-based synthesizers that outpeform the domain-specific program synthesis techniques, thereby positioning DQBF as a core representation language for program synthesis. Our empirical analysis shows that T-constrained synthesis can achieve significantly better scalability than syntax-guided approaches. Furthermore, the general purpose DQBF solvers perform on par with domain-specific synthesis techniques.
 DeQuS takes a program synthesis instances and reduce it to a DQF(T) instance. Currenlty, DeQUS can only handle bitvector theory.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Manthan</title>
-      <link>/project/manthan/</link>
-      <pubDate>Sat, 04 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/project/manthan/</guid>
-      <description>&lt;p&gt;Boolean functional synthesis is a fundamental problem in computer science with wide-ranging applications and has witnessed a surge of interest resulting in progressively improved techniques over the past decade. Despite intense algorithmic development, a large number of problems remain beyond the reach of the state of the art techniques. Motivated by the progress in machine learning, we propose Manthan, a novel data-driven approach to Boolean functional synthesis. Manthan views functional synthesis as a classification problem, relying on advances in constrained sampling for data generation, and advances in automated reasoning for a novel proof-guided refinement and provable verification.&lt;/p&gt;
-&lt;p&gt;Manthan significantly improves upon the current state of the art, solving 356 benchmarks in comparison to 280, which is the most solved by a state of the art technique; thereby, it demonstrate an increase of 76 benchmarks over the current state of the art. Furthermore, Manthan solves 60 benchmarks that none of the current state of the art techniques could solve.&lt;/p&gt;
 </description>
     </item>
     
