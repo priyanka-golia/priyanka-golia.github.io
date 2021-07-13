@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="Given a formula the problem of uniform sampling seeks to sample solutions of uniformly at random. Uniform sampling is a fundamental problem with a wide variety of applications. The computational intractability of uniform sampling has led to the development of several samplers that heavily rely on heuristics and are not accompanied by theoretical analysis of their distribution. Recently, Chakraborty and Meel (2019) designed the first scalable sampling tester, Barbarik, based on a grey-box sampling technique for testing if the distribution, according to which the given sampler is sampling, is close to the uniform or far from uniform. While the theoretical analysis of Barbarik provides only unconditional soundness guarantees, the empirical evaluation of Barbarik did show its success in determining that some of the off-the-shelf samplers were far from a uniform sampler. The availability of Barbarik has the potential to spur development of samplers and testing techniques such that developers can design sampling methods that can be accepted by Barbarik even though these samplers may not be amenable to a detailed mathematical analysis. In this paper, we present the realization of this aforementioned promise. Based on the flexibility offered by CryptoMiniSat, we design a sampler CMSGen that promises the achievement of sweet spot of the quality of distributions and runtime performance. In particular, CMSGen achieves significant runtime performance improvement over the existing samplers. We conduct two case studies, and demonstrate that the usage of CMSGen leads to significant runtime improvements in the context of combinatorial testing and functional synthesis. A salient strength of our work is the simplicity of CMSGen, which stands in contrast to complicated algorithmic schemes developed in the past that fail to attain desired quality of distributions with practical runtime performance.">
+  <meta name="description" content="Given a Boolean specification between a set of inputs and outputs, the problem of Boolean functional synthesis is to synthesise each output as a function of inputs such that the specification is met. Although the past few years have witnessed intense algorithmic development, accomplishing scalability remains the holy grail. The state-of-the-art approach combines machine learning and automated reasoningto synthesise Boolean functions efficiently. In this paper, we propose fouralgorithmic improvements for a data-driven framework for functional synthesis: using a dependency-driven multi-classifier to learn candidatefunction, extracting uniquely defined functions by interpolation, variables retention, and using lexicographic MaxSAT to repair candidates. We implement these improvements in the state-of-the-art framework, called Manthan. The proposed framework is called Manthan2. Manthan2 shows significantly improved runtime performance compared to Manthan. In an extensive experimental evaluation on 609 benchmarks, Manthan2 is able to synthesise a Boolean function vector for 509 instances compared to 356 instances solved by Manthan – an increment of 153 instances over the state-of-the-art. To put this into perspective, Manthan improved on the prior state-of-the-art by only 76 instances.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/publication/fmcad21/">
+  <link rel="alternate" hreflang="en-us" href="/publication/iccad21/">
 
   
 
@@ -218,7 +218,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/publication/fmcad21/">
+  <link rel="canonical" href="/publication/iccad21/">
 
   
   
@@ -234,15 +234,15 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Priyanka">
-  <meta property="og:url" content="/publication/fmcad21/">
-  <meta property="og:title" content="Designing Samplers is Easy: The Boon of Testers | Priyanka">
-  <meta property="og:description" content="Given a formula the problem of uniform sampling seeks to sample solutions of uniformly at random. Uniform sampling is a fundamental problem with a wide variety of applications. The computational intractability of uniform sampling has led to the development of several samplers that heavily rely on heuristics and are not accompanied by theoretical analysis of their distribution. Recently, Chakraborty and Meel (2019) designed the first scalable sampling tester, Barbarik, based on a grey-box sampling technique for testing if the distribution, according to which the given sampler is sampling, is close to the uniform or far from uniform. While the theoretical analysis of Barbarik provides only unconditional soundness guarantees, the empirical evaluation of Barbarik did show its success in determining that some of the off-the-shelf samplers were far from a uniform sampler. The availability of Barbarik has the potential to spur development of samplers and testing techniques such that developers can design sampling methods that can be accepted by Barbarik even though these samplers may not be amenable to a detailed mathematical analysis. In this paper, we present the realization of this aforementioned promise. Based on the flexibility offered by CryptoMiniSat, we design a sampler CMSGen that promises the achievement of sweet spot of the quality of distributions and runtime performance. In particular, CMSGen achieves significant runtime performance improvement over the existing samplers. We conduct two case studies, and demonstrate that the usage of CMSGen leads to significant runtime improvements in the context of combinatorial testing and functional synthesis. A salient strength of our work is the simplicity of CMSGen, which stands in contrast to complicated algorithmic schemes developed in the past that fail to attain desired quality of distributions with practical runtime performance."><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="/publication/iccad21/">
+  <meta property="og:title" content="Engineering an Efficient Boolean Functional Synthesis Engine | Priyanka">
+  <meta property="og:description" content="Given a Boolean specification between a set of inputs and outputs, the problem of Boolean functional synthesis is to synthesise each output as a function of inputs such that the specification is met. Although the past few years have witnessed intense algorithmic development, accomplishing scalability remains the holy grail. The state-of-the-art approach combines machine learning and automated reasoningto synthesise Boolean functions efficiently. In this paper, we propose fouralgorithmic improvements for a data-driven framework for functional synthesis: using a dependency-driven multi-classifier to learn candidatefunction, extracting uniquely defined functions by interpolation, variables retention, and using lexicographic MaxSAT to repair candidates. We implement these improvements in the state-of-the-art framework, called Manthan. The proposed framework is called Manthan2. Manthan2 shows significantly improved runtime performance compared to Manthan. In an extensive experimental evaluation on 609 benchmarks, Manthan2 is able to synthesise a Boolean function vector for 509 instances compared to 356 instances solved by Manthan – an increment of 153 instances over the state-of-the-art. To put this into perspective, Manthan improved on the prior state-of-the-art by only 76 instances."><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2021-07-09T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2021-07-13T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2021-07-09T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2021-07-13T00:00:00&#43;00:00">
   
 
   
@@ -264,12 +264,12 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/publication/fmcad21/"
+    "@id": "/publication/iccad21/"
   },
-  "headline": "Designing Samplers is Easy: The Boon of Testers",
+  "headline": "Engineering an Efficient Boolean Functional Synthesis Engine",
   
-  "datePublished": "2021-07-09T00:00:00Z",
-  "dateModified": "2021-07-09T00:00:00Z",
+  "datePublished": "2021-07-13T00:00:00Z",
+  "dateModified": "2021-07-13T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -284,7 +284,7 @@
       "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Given a formula the problem of uniform sampling seeks to sample solutions of uniformly at random. Uniform sampling is a fundamental problem with a wide variety of applications. The computational intractability of uniform sampling has led to the development of several samplers that heavily rely on heuristics and are not accompanied by theoretical analysis of their distribution. Recently, Chakraborty and Meel (2019) designed the first scalable sampling tester, Barbarik, based on a grey-box sampling technique for testing if the distribution, according to which the given sampler is sampling, is close to the uniform or far from uniform. While the theoretical analysis of Barbarik provides only unconditional soundness guarantees, the empirical evaluation of Barbarik did show its success in determining that some of the off-the-shelf samplers were far from a uniform sampler. The availability of Barbarik has the potential to spur development of samplers and testing techniques such that developers can design sampling methods that can be accepted by Barbarik even though these samplers may not be amenable to a detailed mathematical analysis. In this paper, we present the realization of this aforementioned promise. Based on the flexibility offered by CryptoMiniSat, we design a sampler CMSGen that promises the achievement of sweet spot of the quality of distributions and runtime performance. In particular, CMSGen achieves significant runtime performance improvement over the existing samplers. We conduct two case studies, and demonstrate that the usage of CMSGen leads to significant runtime improvements in the context of combinatorial testing and functional synthesis. A salient strength of our work is the simplicity of CMSGen, which stands in contrast to complicated algorithmic schemes developed in the past that fail to attain desired quality of distributions with practical runtime performance."
+  "description": "Given a Boolean specification between a set of inputs and outputs, the problem of Boolean functional synthesis is to synthesise each output as a function of inputs such that the specification is met. Although the past few years have witnessed intense algorithmic development, accomplishing scalability remains the holy grail. The state-of-the-art approach combines machine learning and automated reasoningto synthesise Boolean functions efficiently. In this paper, we propose fouralgorithmic improvements for a data-driven framework for functional synthesis: using a dependency-driven multi-classifier to learn candidatefunction, extracting uniquely defined functions by interpolation, variables retention, and using lexicographic MaxSAT to repair candidates. We implement these improvements in the state-of-the-art framework, called Manthan. The proposed framework is called Manthan2. Manthan2 shows significantly improved runtime performance compared to Manthan. In an extensive experimental evaluation on 609 benchmarks, Manthan2 is able to synthesise a Boolean function vector for 509 instances compared to 356 instances solved by Manthan – an increment of 153 instances over the state-of-the-art. To put this into perspective, Manthan improved on the prior state-of-the-art by only 76 instances."
 }
 </script>
 
@@ -302,7 +302,7 @@
 
 
 
-  <title>Designing Samplers is Easy: The Boon of Testers | Priyanka</title>
+  <title>Engineering an Efficient Boolean Functional Synthesis Engine | Priyanka</title>
 
 </head>
 
@@ -550,7 +550,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Designing Samplers is Easy: The Boon of Testers</h1>
+  <h1>Engineering an Efficient Boolean Functional Synthesis Engine</h1>
 
   
 
@@ -568,7 +568,7 @@
     
 
   
-  <span>Priyanka Golia</span>, <span>Mate Soos</span>, <span>Sourav Chakraborty</span>, <span>Kuldeep S. Meel</span>
+  <span>Priyanka Golia</span>, <span>Friedrich Slivovsky</span>, <span>Subhajit Roy</span>, <span>Kuldeep S. Meel</span>
   </div>
   
   
@@ -630,7 +630,7 @@
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/fmcad21/cite.bib">
+        data-filename="/publication/iccad21/cite.bib">
   Cite
 </button>
 
@@ -660,7 +660,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Given a formula the problem of uniform sampling seeks to sample solutions of uniformly at random. Uniform sampling is a fundamental problem with a wide variety of applications. The computational intractability of uniform sampling has led to the development of several samplers that heavily rely on heuristics and are not accompanied by theoretical analysis of their distribution. Recently, Chakraborty and Meel (2019) designed the first scalable sampling tester, Barbarik, based on a grey-box sampling technique for testing if the distribution, according to which the given sampler is sampling, is close to the uniform or far from uniform. While the theoretical analysis of Barbarik provides only unconditional soundness guarantees, the empirical evaluation of Barbarik did show its success in determining that some of the off-the-shelf samplers were far from a uniform sampler. The availability of Barbarik has the potential to spur development of samplers and testing techniques such that developers can design sampling methods that can be accepted by Barbarik even though these samplers may not be amenable to a detailed mathematical analysis. In this paper, we present the realization of this aforementioned promise. Based on the flexibility offered by CryptoMiniSat, we design a sampler CMSGen that promises the achievement of sweet spot of the quality of distributions and runtime performance. In particular, CMSGen achieves significant runtime performance improvement over the existing samplers. We conduct two case studies, and demonstrate that the usage of CMSGen leads to significant runtime improvements in the context of combinatorial testing and functional synthesis. A salient strength of our work is the simplicity of CMSGen, which stands in contrast to complicated algorithmic schemes developed in the past that fail to attain desired quality of distributions with practical runtime performance.</p>
+    <p class="pub-abstract">Given a Boolean specification between a set of inputs and outputs, the problem of Boolean functional synthesis is to synthesise each output as a function of inputs such that the specification is met. Although the past few years have witnessed intense algorithmic development, accomplishing scalability remains the holy grail. The state-of-the-art approach combines machine learning and automated reasoningto synthesise Boolean functions efficiently. In this paper, we propose fouralgorithmic improvements for a data-driven framework for functional synthesis: using a dependency-driven multi-classifier to learn candidatefunction, extracting uniquely defined functions by interpolation, variables retention, and using lexicographic MaxSAT to repair candidates. We implement these improvements in the state-of-the-art framework, called Manthan. The proposed framework is called Manthan2. Manthan2 shows significantly improved runtime performance compared to Manthan. In an extensive experimental evaluation on 609 benchmarks, Manthan2 is able to synthesise a Boolean function vector for 509 instances compared to 356 instances solved by Manthan – an increment of 153 instances over the state-of-the-art. To put this into perspective, Manthan improved on the prior state-of-the-art by only 76 instances.</p>
     
 
     
@@ -690,7 +690,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">Formal Methods in Computer-Aided Design, FMCAD</div>
+          <div class="col-12 col-md-9">40th International Conference On Computer Aided Design,ICCAD</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -721,7 +721,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/fmcad21/&amp;text=Designing%20Samplers%20is%20Easy:%20The%20Boon%20of%20Testers" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/iccad21/&amp;text=Engineering%20an%20Efficient%20Boolean%20Functional%20Synthesis%20Engine" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -734,7 +734,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/fmcad21/&amp;t=Designing%20Samplers%20is%20Easy:%20The%20Boon%20of%20Testers" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/iccad21/&amp;t=Engineering%20an%20Efficient%20Boolean%20Functional%20Synthesis%20Engine" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -747,7 +747,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Designing%20Samplers%20is%20Easy:%20The%20Boon%20of%20Testers&amp;body=/publication/fmcad21/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Engineering%20an%20Efficient%20Boolean%20Functional%20Synthesis%20Engine&amp;body=/publication/iccad21/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -760,7 +760,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/fmcad21/&amp;title=Designing%20Samplers%20is%20Easy:%20The%20Boon%20of%20Testers" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/iccad21/&amp;title=Engineering%20an%20Efficient%20Boolean%20Functional%20Synthesis%20Engine" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -773,7 +773,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Designing%20Samplers%20is%20Easy:%20The%20Boon%20of%20Testers%20/publication/fmcad21/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Engineering%20an%20Efficient%20Boolean%20Functional%20Synthesis%20Engine%20/publication/iccad21/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -786,7 +786,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/fmcad21/&amp;title=Designing%20Samplers%20is%20Easy:%20The%20Boon%20of%20Testers" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/iccad21/&amp;title=Engineering%20an%20Efficient%20Boolean%20Functional%20Synthesis%20Engine" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -865,15 +865,8 @@
   
   
   <div class="post-nav-item">
-    <div class="meta-nav">Next</div>
-    <a href="/publication/iccad21/" rel="next">Engineering an Efficient Boolean Functional Synthesis Engine</a>
-  </div>
-  
-  
-  
-  <div class="post-nav-item">
     <div class="meta-nav">Previous</div>
-    <a href="/publication/logic-workshop/" rel="prev">Henkin Synthesis: DQBF meets Machine Learning</a>
+    <a href="/publication/fmcad21/" rel="prev">Designing Samplers is Easy: The Boon of Testers</a>
   </div>
   
 </div>
