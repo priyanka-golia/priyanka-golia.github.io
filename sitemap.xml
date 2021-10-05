@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/workshop/workshop_paper/</loc>
+  </url>
+  
+  <url>
     <loc>/publication-type/1/</loc>
     <lastmod>2021-07-13T00:00:00+00:00</lastmod>
   </url>
@@ -93,17 +97,22 @@
   </url>
   
   <url>
-    <loc>/publication/logic-workshop/</loc>
+    <loc>/workshop/logic-workshop/</loc>
     <lastmod>2021-07-01T01:06:16+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/essli-workshop/</loc>
+    <loc>/workshop/essli-workshop/</loc>
     <lastmod>2021-07-01T01:06:16+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/qbf-workshop/</loc>
+    <loc>/workshop/qbf-workshop/</loc>
+    <lastmod>2021-07-01T01:06:16+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workshop/</loc>
     <lastmod>2021-07-01T01:06:16+08:00</lastmod>
   </url>
   
@@ -113,7 +122,7 @@
   </url>
   
   <url>
-    <loc>/publication/live-tacas-20-manthan/</loc>
+    <loc>/workshop/live-tacas-20-manthan/</loc>
     <lastmod>2020-04-19T01:06:16+08:00</lastmod>
   </url>
   
