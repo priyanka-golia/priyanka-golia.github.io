@@ -5,12 +5,28 @@
     <link>/author/priyanka-golia/</link>
       <atom:link href="/author/priyanka-golia/index.xml" rel="self" type="application/rss+xml" />
     <description>Priyanka Golia</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 13 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 09 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Priyanka Golia</title>
       <link>/author/priyanka-golia/</link>
     </image>
+    
+    <item>
+      <title>A Scalable Shannon Entropy Estimator</title>
+      <link>/publication/cav22/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/cav22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Quantitative Testing of Samplers</title>
+      <link>/publication/cp22/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/cp22/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Engineering an Efficient Boolean Functional Synthesis Engine</title>
@@ -30,6 +46,15 @@
     
     <item>
       <title>Henkin Synthesis: DQBF meets Machine Learning</title>
+      <link>/publication/logic-workshop/</link>
+      <pubDate>Thu, 01 Jul 2021 01:06:16 +0800</pubDate>
+      <guid>/publication/logic-workshop/</guid>
+      <description>&lt;hr&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Henkin Synthesis: DQBF meets Machine Learning</title>
       <link>/workshop/logic-workshop/</link>
       <pubDate>Thu, 01 Jul 2021 01:06:16 +0800</pubDate>
       <guid>/workshop/logic-workshop/</guid>
@@ -39,9 +64,27 @@
     
     <item>
       <title>Manthan: A Data-Driven Approach for Boolean Function Synthesis</title>
+      <link>/publication/essli-workshop/</link>
+      <pubDate>Thu, 01 Jul 2021 01:06:16 +0800</pubDate>
+      <guid>/publication/essli-workshop/</guid>
+      <description>&lt;hr&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Manthan: A Data-Driven Approach for Boolean Function Synthesis</title>
       <link>/workshop/essli-workshop/</link>
       <pubDate>Thu, 01 Jul 2021 01:06:16 +0800</pubDate>
       <guid>/workshop/essli-workshop/</guid>
+      <description>&lt;hr&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Program Synthesis as Dependency Quantified Formula Modulo Theory</title>
+      <link>/publication/qbf-workshop/</link>
+      <pubDate>Thu, 01 Jul 2021 01:06:16 +0800</pubDate>
+      <guid>/publication/qbf-workshop/</guid>
       <description>&lt;hr&gt;
 </description>
     </item>
@@ -64,19 +107,27 @@
     </item>
     
     <item>
+      <title>Manthan: A Data-Driven Approach for Boolean Function Synthesis</title>
+      <link>/publication/cav20-manthan/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/cav20-manthan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A Data-Driven Approach for Skolem Function Synthesis</title>
-      <link>/workshop/live-tacas-20-manthan/</link>
+      <link>/publication/live-tacas-20-manthan/</link>
       <pubDate>Sun, 19 Apr 2020 01:06:16 +0800</pubDate>
-      <guid>/workshop/live-tacas-20-manthan/</guid>
+      <guid>/publication/live-tacas-20-manthan/</guid>
       <description>&lt;hr&gt;
 </description>
     </item>
     
     <item>
-      <title>Manthan: A Data-Driven Approach for Boolean Function Synthesis</title>
-      <link>/publication/cav20-manthan/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/publication/cav20-manthan/</guid>
+      <title>A Data-Driven Approach for Skolem Function Synthesis</title>
+      <link>/workshop/live-tacas-20-manthan/</link>
+      <pubDate>Sun, 19 Apr 2020 01:06:16 +0800</pubDate>
+      <guid>/workshop/live-tacas-20-manthan/</guid>
       <description>&lt;hr&gt;
 </description>
     </item>

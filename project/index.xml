@@ -5,12 +5,22 @@
     <link>/project/</link>
       <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 04 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 04 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
       <link>/project/</link>
     </image>
+    
+    <item>
+      <title>EntropyEstimation</title>
+      <link>/project/entropyestimation/</link>
+      <pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate>
+      <guid>/project/entropyestimation/</guid>
+      <description>&lt;p&gt;Quantified information flow (QIF) has emerged as a rigorous approach to quantitatively measure confidentiality; the information-theoretic underpinning of QIF allows the end-users to link the computed quantities with the computational effort required on the part of the adversary to gain access to desired confidential information. In this work, we focus on the estimation of Shannon entropy for a given program Π. As a first step, we focus on the case wherein a Boolean formula φ(X, Y ) captures the relationship between inputs X and output Y of Π. Such formulas φ(X, Y ) have the property that for every valuation to X, there exists exactly one valuation to Y such that φ is satisfied. The existing techniques require O(2^m ) model counting queries, where m = |Y |.
+We propose the first efficient algorithmic technique, called EntropyEstimation to estimate the Shannon entropy of φ with PAC-style guarantees, i.e., the computed estimate is guaranteed to lie within a (1 ± ε)-factor of the ground truth with confidence at least 1−δ. Furthermore, EntropyEstimation makes only O( min(m,n)) counting and sampling queries, where m = |Y |, and n = |X|, thereby achieving a significant reduction in the number of model counting queries. We demonstrate the practical efficiency of our algorithmic framework via a detailed experimental evaluation. Our evaluation demonstrates that the proposed framework scales to the formulas beyond the reach of the previously known approaches.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>DeQuS</title>

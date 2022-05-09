@@ -5,12 +5,28 @@
     <link>/publication-type/1/</link>
       <atom:link href="/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 13 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 09 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>1</title>
       <link>/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>A Scalable Shannon Entropy Estimator</title>
+      <link>/publication/cav22/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/cav22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Quantitative Testing of Samplers</title>
+      <link>/publication/cp22/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/cp22/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Engineering an Efficient Boolean Functional Synthesis Engine</title>
@@ -39,10 +55,9 @@
     <item>
       <title>Manthan: A Data-Driven Approach for Boolean Function Synthesis</title>
       <link>/publication/cav20-manthan/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
       <guid>/publication/cav20-manthan/</guid>
-      <description>&lt;hr&gt;
-</description>
+      <description></description>
     </item>
     
   </channel>

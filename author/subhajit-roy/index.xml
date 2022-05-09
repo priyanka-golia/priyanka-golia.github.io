@@ -22,6 +22,15 @@
     
     <item>
       <title>Henkin Synthesis: DQBF meets Machine Learning</title>
+      <link>/publication/logic-workshop/</link>
+      <pubDate>Thu, 01 Jul 2021 01:06:16 +0800</pubDate>
+      <guid>/publication/logic-workshop/</guid>
+      <description>&lt;hr&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Henkin Synthesis: DQBF meets Machine Learning</title>
       <link>/workshop/logic-workshop/</link>
       <pubDate>Thu, 01 Jul 2021 01:06:16 +0800</pubDate>
       <guid>/workshop/logic-workshop/</guid>
@@ -31,9 +40,27 @@
     
     <item>
       <title>Manthan: A Data-Driven Approach for Boolean Function Synthesis</title>
+      <link>/publication/essli-workshop/</link>
+      <pubDate>Thu, 01 Jul 2021 01:06:16 +0800</pubDate>
+      <guid>/publication/essli-workshop/</guid>
+      <description>&lt;hr&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Manthan: A Data-Driven Approach for Boolean Function Synthesis</title>
       <link>/workshop/essli-workshop/</link>
       <pubDate>Thu, 01 Jul 2021 01:06:16 +0800</pubDate>
       <guid>/workshop/essli-workshop/</guid>
+      <description>&lt;hr&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Program Synthesis as Dependency Quantified Formula Modulo Theory</title>
+      <link>/publication/qbf-workshop/</link>
+      <pubDate>Thu, 01 Jul 2021 01:06:16 +0800</pubDate>
+      <guid>/publication/qbf-workshop/</guid>
       <description>&lt;hr&gt;
 </description>
     </item>
@@ -56,19 +83,27 @@
     </item>
     
     <item>
+      <title>Manthan: A Data-Driven Approach for Boolean Function Synthesis</title>
+      <link>/publication/cav20-manthan/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/cav20-manthan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A Data-Driven Approach for Skolem Function Synthesis</title>
-      <link>/workshop/live-tacas-20-manthan/</link>
+      <link>/publication/live-tacas-20-manthan/</link>
       <pubDate>Sun, 19 Apr 2020 01:06:16 +0800</pubDate>
-      <guid>/workshop/live-tacas-20-manthan/</guid>
+      <guid>/publication/live-tacas-20-manthan/</guid>
       <description>&lt;hr&gt;
 </description>
     </item>
     
     <item>
-      <title>Manthan: A Data-Driven Approach for Boolean Function Synthesis</title>
-      <link>/publication/cav20-manthan/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/publication/cav20-manthan/</guid>
+      <title>A Data-Driven Approach for Skolem Function Synthesis</title>
+      <link>/workshop/live-tacas-20-manthan/</link>
+      <pubDate>Sun, 19 Apr 2020 01:06:16 +0800</pubDate>
+      <guid>/workshop/live-tacas-20-manthan/</guid>
       <description>&lt;hr&gt;
 </description>
     </item>

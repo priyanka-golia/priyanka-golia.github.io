@@ -5,12 +5,20 @@
     <link>/author/sourav-chakraborty/</link>
       <atom:link href="/author/sourav-chakraborty/index.xml" rel="self" type="application/rss+xml" />
     <description>Sourav Chakraborty</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 09 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 09 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Sourav Chakraborty</title>
       <link>/author/sourav-chakraborty/</link>
     </image>
+    
+    <item>
+      <title>On Quantitative Testing of Samplers</title>
+      <link>/publication/cp22/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/cp22/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Designing Samplers is Easy: The Boon of Testers</title>
