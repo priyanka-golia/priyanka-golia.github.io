@@ -5,7 +5,7 @@
     <link>/talk/</link>
       <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>News</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 13 Jun 2022 14:15:00 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Aug 2022 13:15:00 +0530</lastBuildDate>
     <image>
       <url>/images/icon_hubc9621be2d9c7eb34fbb96ddfc2f8546_4058026_512x512_fill_lanczos_center_2.png</url>
       <title>News</title>
@@ -13,9 +13,33 @@
     </image>
     
     <item>
-      <title>I am visiting Simons institute to attend the reunion for &lt;a href=&#34;https://simons.berkeley.edu/programs/sat2021&#34;&gt;Satisfiability: Theory, Practice, and Beyond &lt;/a&gt; program. I am excited to present our work on program synthesis as dependency quantified formulas.&lt;br&gt; </title>
+      <title>Excited to attend a fully packed &lt;a href = &#34;https://www.floc2022.org/&#34;&gt;FLoC-22&lt;/a&gt;. We will be presenting:&lt;br&gt; &lt;ul&gt; &lt;li&gt; &lt;a href=&#34;files/slides/qbf_workshop.pdf&#34;&gt; A data-driven approach for Boolean functional synthesis &lt;/a&gt; at QBF workshop. &lt;/li&gt; &lt;li&gt; &lt;a href=&#34;files/slides/dpcp.pdf&#34;&gt;Boolean functional synthesis and its applications &lt;/a&gt; at CP doctoral program.&lt;/li&gt; &lt;li&gt;&lt;a href=&#34;files/slides/fmcad21.pdf&#34;&gt;Designing sampler is easy: the boon of testers &lt;/a&gt; at Model counting workshop.&lt;/li&gt; &lt;li&gt; &lt;a href=&#34;files/publications/cp22_shakuni.pdf&#34;&gt;On quantitative testing of sampler &lt;/a&gt; at CP 2022.&lt;/li&gt; &lt;li&gt;  &lt;a href=&#34;files/publications/cav-22-entropy.pdf&#34;&gt;A scalable Shannon entropy estimator &lt;/a&gt; at CAV 2022.&lt;/li&gt;&lt;/ul&gt;</title>
+      <link>/talk/01082022/</link>
+      <pubDate>Mon, 01 Aug 2022 13:15:00 +0530</pubDate>
+      <guid>/talk/01082022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Happy to present first in-person tutorial :)  We will be talking about &lt;a href=&#34;ijcai22-tutorial/index.html&#34;&gt;automated synthesis&lt;/a&gt; at IJCAI-22. </title>
+      <link>/talk/24072022/</link>
+      <pubDate>Sun, 24 Jul 2022 14:15:00 +0530</pubDate>
+      <guid>/talk/24072022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>I am attending &lt;a href=&#34;https://highlights-conference.org/2022/&#34;&gt;Highlights of Logic, Games and Automata&lt;/a&gt;. I will be talking about our work on program synthesis as dependency quantified formulas.  Also, looking forward to visit Pierre Marquis and Daniel Le Berre as a part of Highlights Extended Stay Program.</title>
+      <link>/talk/27062022/</link>
+      <pubDate>Mon, 27 Jun 2022 14:15:00 +0530</pubDate>
+      <guid>/talk/27062022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>I am visiting Simons institute to attend the reunion for &lt;a href=&#34;https://simons.berkeley.edu/programs/sat2021&#34;&gt;Satisfiability: Theory, Practice, and Beyond &lt;/a&gt; program. I will be presenting our work on program synthesis as dependency quantified formulas. </title>
       <link>/talk/13062022/</link>
-      <pubDate>Mon, 13 Jun 2022 14:15:00 +0800</pubDate>
+      <pubDate>Mon, 13 Jun 2022 14:15:00 +0530</pubDate>
       <guid>/talk/13062022/</guid>
       <description></description>
     </item>
@@ -23,7 +47,7 @@
     <item>
       <title>&lt;b&gt;Our work on A Scalable Shannon Entropy Estimator is accepted to  &lt;a href=&#34;http://i-cav.org/2022/&#34;&gt;CAV-22&lt;/a&gt;.&lt;/b&gt; &lt;br&gt; We propose the first efficient algorithmic technique to estimate the Shannon entropy of a specification with PAC-style guarantees, i.e., the computed estimate is guaranteed to lie within a (1 ± ε)-factor of the ground truth with confidence &gt;= 1−δ. &lt;br&gt; Joint work with: Brendan Juba and Kuldeep S. Meel&lt;br&gt; </title>
       <link>/talk/09052022/</link>
-      <pubDate>Mon, 09 May 2022 13:15:00 +0800</pubDate>
+      <pubDate>Mon, 09 May 2022 13:15:00 +0530</pubDate>
       <guid>/talk/09052022/</guid>
       <description></description>
     </item>
@@ -31,7 +55,7 @@
     <item>
       <title>&lt;b&gt;Our work On Quantitative Testing of Samplers has been accepted to  &lt;a href=&#34;https://cp2022.a4cp.org&#34;&gt;CP-22&lt;/a&gt;.&lt;/b&gt; &lt;br&gt; We design a computational hardness-based tester, called ScalBarbarik. ScalBarbarik provides a qunatitative way to analysis the quality of a sampler.&lt;br&gt; Joint work with: Mate Soos, Sourav Chakraborty, Kuldeep S. Meel&lt;br&gt; </title>
       <link>/talk/08052022/</link>
-      <pubDate>Sun, 08 May 2022 13:15:00 +0800</pubDate>
+      <pubDate>Sun, 08 May 2022 13:15:00 +0530</pubDate>
       <guid>/talk/08052022/</guid>
       <description></description>
     </item>
@@ -39,7 +63,7 @@
     <item>
       <title>&lt;b&gt;Join, from the comfort of your home, our tutorial on &lt;a href=&#34;https://priyanka-golia.github.io/ijcai22-tutorial/index.html&#34;&gt;Automated Synthesis: Towards the Holy Grail of AI&lt;/a&gt; at AAAI-22.&lt;/b&gt;</title>
       <link>/talk/08012021/</link>
-      <pubDate>Sat, 08 Jan 2022 14:15:00 +0800</pubDate>
+      <pubDate>Sat, 08 Jan 2022 14:15:00 +0530</pubDate>
       <guid>/talk/08012021/</guid>
       <description></description>
     </item>
@@ -47,7 +71,7 @@
     <item>
       <title>I will be giving a &lt;b&gt;student invited talk &lt;/b&gt; at &lt;a href=&#34;https://www.tifr.res.in/~shibashis.guha/iVerif/&#34;&gt;iVerif: Workshop on artifical intelligence and Verification &lt;/a&gt;. Its a pre-FSTTCS workshop. See you all at FSTTCS!</title>
       <link>/talk/12012021/</link>
-      <pubDate>Wed, 01 Dec 2021 14:15:00 +0800</pubDate>
+      <pubDate>Wed, 01 Dec 2021 14:15:00 +0530</pubDate>
       <guid>/talk/12012021/</guid>
       <description></description>
     </item>
@@ -55,7 +79,7 @@
     <item>
       <title>&lt;b&gt;Our paper on Engineering an Efficient Boolean Functional Synthesis Engine has received the best paper nomination at ICCAD 21&lt;/b&gt;</title>
       <link>/talk/29082021/</link>
-      <pubDate>Fri, 29 Oct 2021 14:15:00 +0800</pubDate>
+      <pubDate>Fri, 29 Oct 2021 14:15:00 +0530</pubDate>
       <guid>/talk/29082021/</guid>
       <description></description>
     </item>
@@ -63,7 +87,7 @@
     <item>
       <title>I will be visiting Daniel Neider (MPI-SWS), Armin Biere (University of Freiburg) in two weeks from now!  Hoping to visit CISPA as well to meet Bernd Finkbeiner.</title>
       <link>/talk/01102021/</link>
-      <pubDate>Fri, 08 Oct 2021 13:15:00 +0800</pubDate>
+      <pubDate>Fri, 08 Oct 2021 13:15:00 +0530</pubDate>
       <guid>/talk/01102021/</guid>
       <description></description>
     </item>
@@ -71,7 +95,7 @@
     <item>
       <title>&lt;b&gt;Our paper Engineering an Efficient Boolean Functional Synthesis Engine has been accepted to &lt;a href=&#34;https://www.iccad.com/index.php&#34;&gt;ICCAD 2021&lt;/a&gt;.&lt;/b&gt; &lt;br&gt; The work addresses scalability barriers faced by the current state-of-the-art synthesis techniques. We propose four algorithmic improvements for a data-driven framework for functional synthesis.&lt;br&gt; Joint work with: Friedrich Slivovsky, Subhajit Roy and Kuldeep S. Meel&lt;br&gt; </title>
       <link>/talk/14072021/</link>
-      <pubDate>Sun, 08 Aug 2021 13:15:00 +0800</pubDate>
+      <pubDate>Sun, 08 Aug 2021 13:15:00 +0530</pubDate>
       <guid>/talk/14072021/</guid>
       <description></description>
     </item>
@@ -79,7 +103,7 @@
     <item>
       <title>&lt;b&gt;Our paper Designing Samplers is Easy: The Boon of Testers has been accepted to &lt;a href=&#34;https://fmcad.org/FMCAD21/&#34;&gt;FMCAD 2021&lt;/a&gt;.&lt;/b&gt; &lt;br&gt; Our Sampler not only passes the tests of Barbarik but also leads to significant performance improvements for real-world instances. &lt;br&gt; Joint work with: Mate Soos, Sourav Chakraborty, Kuldeep S. Meel&lt;br&gt; </title>
       <link>/talk/09072021/</link>
-      <pubDate>Fri, 09 Jul 2021 14:15:00 +0800</pubDate>
+      <pubDate>Fri, 09 Jul 2021 14:15:00 +0530</pubDate>
       <guid>/talk/09072021/</guid>
       <description></description>
     </item>
@@ -87,7 +111,7 @@
     <item>
       <title>&lt;b&gt;Excited to announce that I will presenting a talk on synthesis at the &lt;a href=&#34;https://esslli2021.unibz.it/&#34;&gt;32nd, European Summer School in  Logic, Language, and Information&lt;/a&gt;.&lt;/b&gt;</title>
       <link>/talk/29072021/</link>
-      <pubDate>Thu, 01 Jul 2021 14:15:00 +0800</pubDate>
+      <pubDate>Thu, 01 Jul 2021 14:15:00 +0530</pubDate>
       <guid>/talk/29072021/</guid>
       <description></description>
     </item>
@@ -95,7 +119,7 @@
     <item>
       <title>&lt;b&gt;Our paper on Program Synthesis as Dependency Quantified Formula Modulo Theory has been accepted to &lt;a href=&#34;https://ijcai-21.org/&#34;&gt;IJCAI 2021&lt;/a&gt;.&lt;/b&gt; &lt;br&gt;We show that theory-constrained synthesis can be reduced DQF(T), i.e., to the problem of finding a witness of a dependency quantified formula modulo theory. &lt;br&gt; Joint work with: Subhajit Roy and Kuldeep S. Meel&lt;br&gt; </title>
       <link>/talk/30042021/</link>
-      <pubDate>Fri, 30 Apr 2021 14:15:00 +0800</pubDate>
+      <pubDate>Fri, 30 Apr 2021 14:15:00 +0530</pubDate>
       <guid>/talk/30042021/</guid>
       <description></description>
     </item>
@@ -103,7 +127,7 @@
     <item>
       <title>We presented a data-driven approach for [Boolean functional synthesis](https://www.comp.nus.edu.sg/~meel/Papers/cav20-grm.pdf), which works at the intersection of constrained sampling, machine learning and automated reasoning at [CAV 2020](http://i-cav.org/2020/).</title>
       <link>/talk/22072020/</link>
-      <pubDate>Wed, 22 Jul 2020 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 22 Jul 2020 00:00:00 +0530</pubDate>
       <guid>/talk/22072020/</guid>
       <description></description>
     </item>
@@ -111,7 +135,7 @@
     <item>
       <title>&lt;b&gt;Presented a talk on a data driven approach for Boolean function synthesis at 4th Workshop on Learning in Verification (LiVe), ETPAS, 2020 and at Software Engineering Research in India, SERI, 2020&lt;/a&gt;.&lt;/b&gt;</title>
       <link>/talk/15072020/</link>
-      <pubDate>Wed, 15 Jul 2020 14:15:00 +0800</pubDate>
+      <pubDate>Wed, 15 Jul 2020 14:15:00 +0530</pubDate>
       <guid>/talk/15072020/</guid>
       <description></description>
     </item>
@@ -119,7 +143,7 @@
     <item>
       <title>&lt;b&gt;We have released the source code of [Manthan](https://github.com/meelgroup/manthan).&lt;/b&gt;</title>
       <link>/talk/04072020/</link>
-      <pubDate>Mon, 13 Jul 2020 00:00:00 +0800</pubDate>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0530</pubDate>
       <guid>/talk/04072020/</guid>
       <description></description>
     </item>
@@ -127,7 +151,7 @@
     <item>
       <title>&lt;b&gt;Our paper on A data-driven approach for Boolean function synthesis has been accepted to CAV-20&lt;/b&gt;&lt;br&gt; Joint work with: Subhajit Roy and Kuldeep S. Meel</title>
       <link>/talk/07072020/</link>
-      <pubDate>Mon, 13 Apr 2020 00:00:00 +0800</pubDate>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0530</pubDate>
       <guid>/talk/07072020/</guid>
       <description></description>
     </item>
