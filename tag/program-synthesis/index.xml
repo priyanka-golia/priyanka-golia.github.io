@@ -5,7 +5,7 @@
     <link>/tag/program-synthesis/</link>
       <atom:link href="/tag/program-synthesis/index.xml" rel="self" type="application/rss+xml" />
     <description>program synthesis</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 04 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 04 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hubc9621be2d9c7eb34fbb96ddfc2f8546_4058026_512x512_fill_lanczos_center_2.png</url>
       <title>program synthesis</title>
@@ -15,7 +15,7 @@
     <item>
       <title>DeQuS</title>
       <link>/project/dequs/</link>
-      <pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
       <guid>/project/dequs/</guid>
       <description>&lt;p&gt;Given a specification φ(X, Y ) over inputs X and output Y , defined over a background theory T, the problem of program synthesis is to design a program f such that Y = f (X) satisfies the specification φ. Over the past decade, syntax-guided synthesis (SyGuS) has emerged as a dominant approach to program synthesis where in addition to the specification φ, the end-user also specifies a grammar L to aid the underlying synthesis engine. This paper investigates the feasibility of synthesis techniques without grammar, a sub-class defined as T-constrained synthesis.
 We show that T-constrained synthesis can be reduced DQF(T), i.e., to the problem of finding a witness of a dependency quantified formula modulo theory. When the underlying theory is bitvectors, the corresponding DQF problem can be further reduced to Dependency Quantified Boolean Formulas (DQBF). We rely on the progress in DQBF solving to design DQBF-based synthesizers that outpeform the domain-specific program synthesis techniques, thereby positioning DQBF as a core representation language for program synthesis. Our empirical analysis shows that T-constrained synthesis can achieve significantly better scalability than syntax-guided approaches. Furthermore, the general purpose DQBF solvers perform on par with domain-specific synthesis techniques.
