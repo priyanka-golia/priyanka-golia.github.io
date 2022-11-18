@@ -27,10 +27,11 @@
   
     
   
-  <meta name="description" content="Quantified information flow (QIF) has emerged as a rigorous approach to quantitatively measure confidentiality; the information-theoretic underpinning of QIF allows the end-users to link the computed quantities with the computational effort required on the part of the adversary to gain access to desired confidential information. In this work, we focus on the estimation of Shannon entropy for a given program Π. As a first step, we focus on the case wherein a Boolean formula φ(X, Y ) captures the relationship between inputs X and output Y of Π. Such formulas φ(X, Y ) have the property that for every valuation to X, there exists exactly one valuation to Y such that φ is satisfied. The existing techniques require O(2 m ) model counting queries, where m = |Y |. We propose the first efficient algorithmic technique, called EntropyEstimation to estimate the Shannon entropy of φ with PAC-style guarantees, i.e., the computed estimate is guaranteed to lie within a (1 ± ε)-factor of the ground truth with confidence at least 1−δ. Furthermore, EntropyEstimation makes only O( min(m,n)) counting and sampling queries, where m = |Y |, and n = |X|, thereby achieving a significant reduction in the number of model counting queries. We demonstrate the practical efficiency of our algorithmic framework via a detailed experimental evaluation. Our evaluation demonstrates that the proposed framework scales to the formulas beyond the reach of the previously known approaches.">
+  <meta name="description" content="Quantified Boolean Formulas (QBF) extend propositional logic with universal and existential quantification. In QBF, an existentially quantified variable is allowed to depend on all universally quantified variables in its scope. Dependency Quantified Boolean Formulas (DQBF) restrict the dependencies of existentially quantified variables. In DQBF, existentially quantified variables have explicit dependencies on a subset of universally quantified variables, called Henkin dependencies. Given a Boolean specification between the  set of inputs and outputs, the problem of Henkin synthesis is to synthesize each output variable as a function of its Henkin dependencies such that the specification is met. Henkin synthesis has wide-ranging applications, including verification of partial circuits, controller synthesis, and circuit realizability.
+This work proposes a data-driven approach for Henkin synthesis called HSynth. On an extensive evaluation of over 563 instances arising from past DQBF solving competitions, we demonstrate thatHSynth is competitive with state-of-the-art tools. Furthermore, HSynth solves 26 benchmarks that none of the current state-ofthe-art techniques could solv">
 
   
-  <link rel="alternate" hreflang="en-us" href="/publication/cav22/">
+  <link rel="alternate" hreflang="en-us" href="/publication/date23/">
 
   
 
@@ -218,7 +219,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hubc9621be2d9c7eb34fbb96ddfc2f8546_4058026_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hubc9621be2d9c7eb34fbb96ddfc2f8546_4058026_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/publication/cav22/">
+  <link rel="canonical" href="/publication/date23/">
 
   
   
@@ -234,15 +235,16 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Priyanka">
-  <meta property="og:url" content="/publication/cav22/">
-  <meta property="og:title" content="A Scalable Shannon Entropy Estimator | Priyanka">
-  <meta property="og:description" content="Quantified information flow (QIF) has emerged as a rigorous approach to quantitatively measure confidentiality; the information-theoretic underpinning of QIF allows the end-users to link the computed quantities with the computational effort required on the part of the adversary to gain access to desired confidential information. In this work, we focus on the estimation of Shannon entropy for a given program Π. As a first step, we focus on the case wherein a Boolean formula φ(X, Y ) captures the relationship between inputs X and output Y of Π. Such formulas φ(X, Y ) have the property that for every valuation to X, there exists exactly one valuation to Y such that φ is satisfied. The existing techniques require O(2 m ) model counting queries, where m = |Y |. We propose the first efficient algorithmic technique, called EntropyEstimation to estimate the Shannon entropy of φ with PAC-style guarantees, i.e., the computed estimate is guaranteed to lie within a (1 ± ε)-factor of the ground truth with confidence at least 1−δ. Furthermore, EntropyEstimation makes only O( min(m,n)) counting and sampling queries, where m = |Y |, and n = |X|, thereby achieving a significant reduction in the number of model counting queries. We demonstrate the practical efficiency of our algorithmic framework via a detailed experimental evaluation. Our evaluation demonstrates that the proposed framework scales to the formulas beyond the reach of the previously known approaches."><meta property="og:image" content="/images/icon_hubc9621be2d9c7eb34fbb96ddfc2f8546_4058026_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="/publication/date23/">
+  <meta property="og:title" content="Synthesis with Explicit Dependencies | Priyanka">
+  <meta property="og:description" content="Quantified Boolean Formulas (QBF) extend propositional logic with universal and existential quantification. In QBF, an existentially quantified variable is allowed to depend on all universally quantified variables in its scope. Dependency Quantified Boolean Formulas (DQBF) restrict the dependencies of existentially quantified variables. In DQBF, existentially quantified variables have explicit dependencies on a subset of universally quantified variables, called Henkin dependencies. Given a Boolean specification between the  set of inputs and outputs, the problem of Henkin synthesis is to synthesize each output variable as a function of its Henkin dependencies such that the specification is met. Henkin synthesis has wide-ranging applications, including verification of partial circuits, controller synthesis, and circuit realizability.
+This work proposes a data-driven approach for Henkin synthesis called HSynth. On an extensive evaluation of over 563 instances arising from past DQBF solving competitions, we demonstrate thatHSynth is competitive with state-of-the-art tools. Furthermore, HSynth solves 26 benchmarks that none of the current state-ofthe-art techniques could solv"><meta property="og:image" content="/images/icon_hubc9621be2d9c7eb34fbb96ddfc2f8546_4058026_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="/images/icon_hubc9621be2d9c7eb34fbb96ddfc2f8546_4058026_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2022-05-09T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2022-11-16T20:13:52&#43;00:00">
     
-    <meta property="article:modified_time" content="2022-05-09T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2023-04-17T00:00:00&#43;00:00">
   
 
   
@@ -264,12 +266,12 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/publication/cav22/"
+    "@id": "/publication/date23/"
   },
-  "headline": "A Scalable Shannon Entropy Estimator",
+  "headline": "Synthesis with Explicit Dependencies",
   
-  "datePublished": "2022-05-09T00:00:00Z",
-  "dateModified": "2022-05-09T00:00:00Z",
+  "datePublished": "2022-11-16T20:13:52Z",
+  "dateModified": "2023-04-17T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -284,7 +286,7 @@
       "url": "/images/icon_hubc9621be2d9c7eb34fbb96ddfc2f8546_4058026_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Quantified information flow (QIF) has emerged as a rigorous approach to quantitatively measure confidentiality; the information-theoretic underpinning of QIF allows the end-users to link the computed quantities with the computational effort required on the part of the adversary to gain access to desired confidential information. In this work, we focus on the estimation of Shannon entropy for a given program Π. As a first step, we focus on the case wherein a Boolean formula φ(X, Y ) captures the relationship between inputs X and output Y of Π. Such formulas φ(X, Y ) have the property that for every valuation to X, there exists exactly one valuation to Y such that φ is satisfied. The existing techniques require O(2 m ) model counting queries, where m = |Y |. We propose the first efficient algorithmic technique, called EntropyEstimation to estimate the Shannon entropy of φ with PAC-style guarantees, i.e., the computed estimate is guaranteed to lie within a (1 ± ε)-factor of the ground truth with confidence at least 1−δ. Furthermore, EntropyEstimation makes only O( min(m,n)) counting and sampling queries, where m = |Y |, and n = |X|, thereby achieving a significant reduction in the number of model counting queries. We demonstrate the practical efficiency of our algorithmic framework via a detailed experimental evaluation. Our evaluation demonstrates that the proposed framework scales to the formulas beyond the reach of the previously known approaches."
+  "description": "Quantified Boolean Formulas (QBF) extend propositional logic with universal and existential quantification. In QBF, an existentially quantified variable is allowed to depend on all universally quantified variables in its scope. Dependency Quantified Boolean Formulas (DQBF) restrict the dependencies of existentially quantified variables. In DQBF, existentially quantified variables have explicit dependencies on a subset of universally quantified variables, called Henkin dependencies. Given a Boolean specification between the  set of inputs and outputs, the problem of Henkin synthesis is to synthesize each output variable as a function of its Henkin dependencies such that the specification is met. Henkin synthesis has wide-ranging applications, including verification of partial circuits, controller synthesis, and circuit realizability.\nThis work proposes a data-driven approach for Henkin synthesis called HSynth. On an extensive evaluation of over 563 instances arising from past DQBF solving competitions, we demonstrate thatHSynth is competitive with state-of-the-art tools. Furthermore, HSynth solves 26 benchmarks that none of the current state-ofthe-art techniques could solv"
 }
 </script>
 
@@ -302,7 +304,7 @@
 
 
 
-  <title>A Scalable Shannon Entropy Estimator | Priyanka</title>
+  <title>Synthesis with Explicit Dependencies | Priyanka</title>
 
 </head>
 
@@ -572,7 +574,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>A Scalable Shannon Entropy Estimator</h1>
+  <h1>Synthesis with Explicit Dependencies</h1>
 
   
 
@@ -591,7 +593,7 @@
 
   
   
-  <span>Priyanka Golia</span>,&nbsp;<span>Brendan Juba</span>,&nbsp;and <span>Kuldeep S. Meel</span>
+  <span>Priyanka Golia</span>,&nbsp;<span>Subhajit Roy</span>,&nbsp;and <span>Kuldeep S. Meel</span>
   </div>
   
   
@@ -602,7 +604,7 @@
     
       
     
-    May 2022
+    April 2023
   </span>
   
 
@@ -652,25 +654,17 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="/files/publications/cav-22-entropy.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="/files/publications/date23_depmanthan.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/cav22/cite.bib">
+        data-filename="/publication/date23/cite.bib">
   Cite
 </button>
 
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/meelgroup/EntropyEstimation" target="_blank" rel="noopener">
-  Code
-</a>
 
 
 
@@ -697,7 +691,8 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Quantified information flow (QIF) has emerged as a rigorous approach to quantitatively measure confidentiality; the information-theoretic underpinning of QIF allows the end-users to link the computed quantities with the computational effort required on the part of the adversary to gain access to desired confidential information. In this work, we focus on the estimation of Shannon entropy for a given program Π. As a first step, we focus on the case wherein a Boolean formula φ(X, Y ) captures the relationship between inputs X and output Y of Π. Such formulas φ(X, Y ) have the property that for every valuation to X, there exists exactly one valuation to Y such that φ is satisfied. The existing techniques require O(2 m ) model counting queries, where m = |Y |. We propose the first efficient algorithmic technique, called EntropyEstimation to estimate the Shannon entropy of φ with PAC-style guarantees, i.e., the computed estimate is guaranteed to lie within a (1 ± ε)-factor of the ground truth with confidence at least 1−δ. Furthermore, EntropyEstimation makes only O( min(m,n)) counting and sampling queries, where m = |Y |, and n = |X|, thereby achieving a significant reduction in the number of model counting queries. We demonstrate the practical efficiency of our algorithmic framework via a detailed experimental evaluation. Our evaluation demonstrates that the proposed framework scales to the formulas beyond the reach of the previously known approaches.</p>
+    <p class="pub-abstract">Quantified Boolean Formulas (QBF) extend propositional logic with universal and existential quantification. In QBF, an existentially quantified variable is allowed to depend on all universally quantified variables in its scope. Dependency Quantified Boolean Formulas (DQBF) restrict the dependencies of existentially quantified variables. In DQBF, existentially quantified variables have explicit dependencies on a subset of universally quantified variables, called Henkin dependencies. Given a Boolean specification between the  set of inputs and outputs, the problem of Henkin synthesis is to synthesize each output variable as a function of its Henkin dependencies such that the specification is met. Henkin synthesis has wide-ranging applications, including verification of partial circuits, controller synthesis, and circuit realizability.
+This work proposes a data-driven approach for Henkin synthesis called HSynth. On an extensive evaluation of over 563 instances arising from past DQBF solving competitions, we demonstrate thatHSynth is competitive with state-of-the-art tools. Furthermore, HSynth solves 26 benchmarks that none of the current state-ofthe-art techniques could solv</p>
     
 
     
@@ -727,7 +722,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">34th International Conference on Computer-Aided Verification,CAV</div>
+          <div class="col-12 col-md-9">Design, Automation and Test in Europe, DATE <code color red> (received Best Paper Award Nomination)</code></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -758,7 +753,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/cav22/&amp;text=A%20Scalable%20Shannon%20Entropy%20Estimator" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/date23/&amp;text=Synthesis%20with%20Explicit%20Dependencies" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -771,7 +766,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/cav22/&amp;t=A%20Scalable%20Shannon%20Entropy%20Estimator" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/date23/&amp;t=Synthesis%20with%20Explicit%20Dependencies" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -784,7 +779,7 @@
       
       
       <li>
-        <a href="mailto:?subject=A%20Scalable%20Shannon%20Entropy%20Estimator&amp;body=/publication/cav22/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Synthesis%20with%20Explicit%20Dependencies&amp;body=/publication/date23/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -797,7 +792,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/cav22/&amp;title=A%20Scalable%20Shannon%20Entropy%20Estimator" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/date23/&amp;title=Synthesis%20with%20Explicit%20Dependencies" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -810,7 +805,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=A%20Scalable%20Shannon%20Entropy%20Estimator%20/publication/cav22/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Synthesis%20with%20Explicit%20Dependencies%20/publication/date23/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -823,7 +818,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/cav22/&amp;title=A%20Scalable%20Shannon%20Entropy%20Estimator" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/date23/&amp;title=Synthesis%20with%20Explicit%20Dependencies" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -891,15 +886,8 @@
   
   
   <div class="post-nav-item">
-    <div class="meta-nav">Next</div>
-    <a href="/publication/date23/" rel="next">Synthesis with Explicit Dependencies</a>
-  </div>
-  
-  
-  
-  <div class="post-nav-item">
     <div class="meta-nav">Previous</div>
-    <a href="/publication/cp22/" rel="prev">On Quantitative Testing of Samplers</a>
+    <a href="/publication/cav22/" rel="prev">A Scalable Shannon Entropy Estimator</a>
   </div>
   
 </div>

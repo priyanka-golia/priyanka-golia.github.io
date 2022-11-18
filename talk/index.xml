@@ -5,12 +5,20 @@
     <link>/talk/</link>
       <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>News</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Aug 2022 13:15:00 +0530</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 16 Nov 2022 14:15:00 +0530</lastBuildDate>
     <image>
       <url>/images/icon_hubc9621be2d9c7eb34fbb96ddfc2f8546_4058026_512x512_fill_lanczos_center_2.png</url>
       <title>News</title>
       <link>/talk/</link>
     </image>
+    
+    <item>
+      <title>Our paper on Synthesis with Explicit Dependencies has been accepted to &lt;a href=&#34;https://www.date-conference.com/&#34;&gt;DATE 2023&lt;/a&gt;. Moreover, It has also received the &lt;b&gt;best paper award nomination&lt;/b&gt;.&lt;br&gt;We present an orthogonal approach to the existing techniques of synthesizing functions with explicit dependencies by combining advances in machine learning with automated reasoning.&lt;br&gt;Joint work with: Subhajit Roy and Kuldeep S. Meel&lt;br&gt;</title>
+      <link>/talk/16112022/</link>
+      <pubDate>Wed, 16 Nov 2022 14:15:00 +0530</pubDate>
+      <guid>/talk/16112022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Excited to attend a fully packed &lt;a href = &#34;https://www.floc2022.org/&#34;&gt;FLoC-22&lt;/a&gt;. We will be presenting:&lt;br&gt; &lt;ul&gt; &lt;li&gt; &lt;a href=&#34;files/slides/qbf_workshop.pdf&#34;&gt; A data-driven approach for Boolean functional synthesis &lt;/a&gt; at QBF workshop. &lt;/li&gt; &lt;li&gt; &lt;a href=&#34;files/slides/dpcp.pdf&#34;&gt;Boolean functional synthesis and its applications &lt;/a&gt; at CP doctoral program.&lt;/li&gt; &lt;li&gt;&lt;a href=&#34;files/slides/fmcad21.pdf&#34;&gt;Designing sampler is easy: the boon of testers &lt;/a&gt; at Model counting workshop.&lt;/li&gt; &lt;li&gt; &lt;a href=&#34;files/publications/cp22_shakuni.pdf&#34;&gt;On quantitative testing of sampler &lt;/a&gt; at CP 2022.&lt;/li&gt; &lt;li&gt;  &lt;a href=&#34;files/publications/cav-22-entropy.pdf&#34;&gt;A scalable Shannon entropy estimator &lt;/a&gt; at CAV 2022.&lt;/li&gt;&lt;/ul&gt;</title>
