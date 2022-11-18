@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>Our paper on Synthesis with Explicit Dependencies has been accepted to &lt;a href=&#34;https://www.date-conference.com/&#34;&gt;DATE 2023&lt;/a&gt;. Moreover, It has also received the &lt;b&gt;best paper award nomination&lt;/b&gt;.&lt;br&gt;We present an orthogonal approach to the existing techniques of synthesizing functions with explicit dependencies by combining advances in machine learning with automated reasoning.&lt;br&gt;Joint work with: Subhajit Roy and Kuldeep S. Meel&lt;br&gt;</title>
+      <title>Our paper on Synthesis with Explicit Dependencies has been accepted to &lt;a href=&#34;https://www.date-conference.com/&#34;&gt;DATE 2023&lt;/a&gt;. Moreover, it has also received the &lt;b&gt;best paper award nomination&lt;/b&gt;.&lt;br&gt;We present an approach that combines advances in machine learning with automated reasoning for efficiently synthesizing functions with explicit dependencies.&lt;br&gt;Joint work with: Subhajit Roy and Kuldeep S. Meel&lt;br&gt;</title>
       <link>/talk/16112022/</link>
       <pubDate>Wed, 16 Nov 2022 14:15:00 +0530</pubDate>
       <guid>/talk/16112022/</guid>
