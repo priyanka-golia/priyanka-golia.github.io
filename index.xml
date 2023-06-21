@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Priyanka</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 17 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 21 Jun 2023 14:15:00 +0530</lastBuildDate>
     <image>
       <url>/images/icon_hubc9621be2d9c7eb34fbb96ddfc2f8546_4058026_512x512_fill_lanczos_center_2.png</url>
       <title>Priyanka</title>
@@ -17,6 +17,14 @@
       <link>/workshop/workshop_paper/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/workshop/workshop_paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Our paper &lt;a href=&#34;files/publications/cav-22-entropy.pdf&#34;&gt;A Scalable Shannon Entropy Estimator&lt;/a&gt; is invited to appear in &lt;/code&gt; &lt;a href=&#34;https://www.springer.com/journal/10703&#34;&gt;Formal Methods in System Design (FMSD)&lt;/a&gt; issue dedicated to the best papers from CAV 2022.</title>
+      <link>/talk/21062023/</link>
+      <pubDate>Wed, 21 Jun 2023 14:15:00 +0530</pubDate>
+      <guid>/talk/21062023/</guid>
       <description></description>
     </item>
     

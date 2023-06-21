@@ -5,12 +5,20 @@
     <link>/talk/</link>
       <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>News</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 16 Nov 2022 14:15:00 +0530</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 21 Jun 2023 14:15:00 +0530</lastBuildDate>
     <image>
       <url>/images/icon_hubc9621be2d9c7eb34fbb96ddfc2f8546_4058026_512x512_fill_lanczos_center_2.png</url>
       <title>News</title>
       <link>/talk/</link>
     </image>
+    
+    <item>
+      <title>Our paper &lt;a href=&#34;files/publications/cav-22-entropy.pdf&#34;&gt;A Scalable Shannon Entropy Estimator&lt;/a&gt; is invited to appear in &lt;/code&gt; &lt;a href=&#34;https://www.springer.com/journal/10703&#34;&gt;Formal Methods in System Design (FMSD)&lt;/a&gt; issue dedicated to the best papers from CAV 2022.</title>
+      <link>/talk/21062023/</link>
+      <pubDate>Wed, 21 Jun 2023 14:15:00 +0530</pubDate>
+      <guid>/talk/21062023/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Our paper on Synthesis with Explicit Dependencies has been accepted to &lt;a href=&#34;https://www.date-conference.com/&#34;&gt;DATE 2023&lt;/a&gt;. Moreover, it has also received the &lt;b&gt;best paper award nomination&lt;/b&gt;.&lt;br&gt;We present an approach that combines advances in machine learning with automated reasoning for efficiently synthesizing functions with explicit dependencies.&lt;br&gt;Joint work with: Subhajit Roy and Kuldeep S. Meel&lt;br&gt;</title>
