@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Priyanka</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 10 Aug 2023 14:15:00 +0530</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hubc9621be2d9c7eb34fbb96ddfc2f8546_4058026_512x512_fill_lanczos_center_2.png</url>
       <title>Priyanka</title>
@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>Workshop Papers</title>
-      <link>/workshop/workshop_paper/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/workshop/workshop_paper/</guid>
+      <title>Functional Synthesis via Formal Methods and Machine Learning</title>
+      <link>/publication/golia-phdthesis/</link>
+      <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/golia-phdthesis/</guid>
       <description></description>
     </item>
     
@@ -241,60 +241,6 @@ A salient strength of our work is the simplicity of CMSGen, which stands in cont
     </item>
     
     <item>
-      <title>Henkin Synthesis: DQBF meets Machine Learning</title>
-      <link>/publication/logic-workshop/</link>
-      <pubDate>Thu, 01 Jul 2021 01:06:16 +0800</pubDate>
-      <guid>/publication/logic-workshop/</guid>
-      <description>&lt;hr&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Henkin Synthesis: DQBF meets Machine Learning</title>
-      <link>/workshop/logic-workshop/</link>
-      <pubDate>Thu, 01 Jul 2021 01:06:16 +0800</pubDate>
-      <guid>/workshop/logic-workshop/</guid>
-      <description>&lt;hr&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Manthan: A Data-Driven Approach for Boolean Function Synthesis</title>
-      <link>/publication/essli-workshop/</link>
-      <pubDate>Thu, 01 Jul 2021 01:06:16 +0800</pubDate>
-      <guid>/publication/essli-workshop/</guid>
-      <description>&lt;hr&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Manthan: A Data-Driven Approach for Boolean Function Synthesis</title>
-      <link>/workshop/essli-workshop/</link>
-      <pubDate>Thu, 01 Jul 2021 01:06:16 +0800</pubDate>
-      <guid>/workshop/essli-workshop/</guid>
-      <description>&lt;hr&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Program Synthesis as Dependency Quantified Formula Modulo Theory</title>
-      <link>/publication/qbf-workshop/</link>
-      <pubDate>Thu, 01 Jul 2021 01:06:16 +0800</pubDate>
-      <guid>/publication/qbf-workshop/</guid>
-      <description>&lt;hr&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Program Synthesis as Dependency Quantified Formula Modulo Theory</title>
-      <link>/workshop/qbf-workshop/</link>
-      <pubDate>Thu, 01 Jul 2021 01:06:16 +0800</pubDate>
-      <guid>/workshop/qbf-workshop/</guid>
-      <description>&lt;hr&gt;
-</description>
-    </item>
-    
-    <item>
       <title>&lt;b&gt;Our paper on Program Synthesis as Dependency Quantified Formula Modulo Theory has been accepted to &lt;a href=&#34;https://ijcai-21.org/&#34;&gt;IJCAI 2021&lt;/a&gt;.&lt;/b&gt; &lt;br&gt;We show that theory-constrained synthesis can be reduced DQF(T), i.e., to the problem of finding a witness of a dependency quantified formula modulo theory. &lt;br&gt; Joint work with: Subhajit Roy and Kuldeep S. Meel&lt;br&gt; </title>
       <link>/talk/30042021/</link>
       <pubDate>Fri, 30 Apr 2021 14:15:00 +0530</pubDate>
@@ -340,24 +286,6 @@ A salient strength of our work is the simplicity of CMSGen, which stands in cont
       <pubDate>Mon, 13 Jul 2020 00:00:00 +0530</pubDate>
       <guid>/talk/04072020/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>A Data-Driven Approach for Skolem Function Synthesis</title>
-      <link>/publication/live-tacas-20-manthan/</link>
-      <pubDate>Sun, 19 Apr 2020 01:06:16 +0800</pubDate>
-      <guid>/publication/live-tacas-20-manthan/</guid>
-      <description>&lt;hr&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A Data-Driven Approach for Skolem Function Synthesis</title>
-      <link>/workshop/live-tacas-20-manthan/</link>
-      <pubDate>Sun, 19 Apr 2020 01:06:16 +0800</pubDate>
-      <guid>/workshop/live-tacas-20-manthan/</guid>
-      <description>&lt;hr&gt;
-</description>
     </item>
     
     <item>

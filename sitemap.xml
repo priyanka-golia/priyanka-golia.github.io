@@ -3,7 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/workshop/workshop_paper/</loc>
+    <loc>/publication-type/7/</loc>
+    <lastmod>2023-09-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2023-09-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/golia-phdthesis/</loc>
+    <lastmod>2023-09-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2023-09-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/priyanka-golia/</loc>
+    <lastmod>2023-09-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2023-09-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2023-09-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -13,11 +44,6 @@
   
   <url>
     <loc>/talk/11082023/</loc>
-    <lastmod>2023-08-10T14:15:00+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2023-08-10T14:15:00+05:30</lastmod>
   </url>
   
@@ -32,27 +58,7 @@
   </url>
   
   <url>
-    <loc>/authors/</loc>
-    <lastmod>2023-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/kuldeep-s.-meel/</loc>
-    <lastmod>2023-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/priyanka-golia/</loc>
-    <lastmod>2023-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2023-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
     <lastmod>2023-04-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -237,46 +243,6 @@
   </url>
   
   <url>
-    <loc>/publication-type/0/</loc>
-    <lastmod>2021-07-01T01:06:16+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/logic-workshop/</loc>
-    <lastmod>2021-07-01T01:06:16+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/workshop/logic-workshop/</loc>
-    <lastmod>2021-07-01T01:06:16+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/essli-workshop/</loc>
-    <lastmod>2021-07-01T01:06:16+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/workshop/essli-workshop/</loc>
-    <lastmod>2021-07-01T01:06:16+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/qbf-workshop/</loc>
-    <lastmod>2021-07-01T01:06:16+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/workshop/qbf-workshop/</loc>
-    <lastmod>2021-07-01T01:06:16+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/workshop/</loc>
-    <lastmod>2021-07-01T01:06:16+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/talk/30042021/</loc>
     <lastmod>2021-04-30T14:15:00+05:30</lastmod>
   </url>
@@ -304,16 +270,6 @@
   <url>
     <loc>/talk/04072020/</loc>
     <lastmod>2020-07-13T00:00:00+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/live-tacas-20-manthan/</loc>
-    <lastmod>2020-04-19T01:06:16+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/workshop/live-tacas-20-manthan/</loc>
-    <lastmod>2020-04-19T01:06:16+08:00</lastmod>
   </url>
   
   <url>
