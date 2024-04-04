@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>COL-876</title>
+  <meta name="description" content="Priyanka's home page.">
+
+ 
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.207/distr/fira_code.css">
+  <link rel="stylesheet" href="https://alexeyignatiev.github.io/assets/css/main.css">
+ 
+
+img{
+   padding: 5px;
+}
+h5{
+   padding: 5px;
+}
+</head>
+
+  <body>
+<header class="site-header">
+
+  <div class="wrapper">
+
+
+    <span class="site-title">
+
+        <strong> COL-876 </strong> 
+    </span>
+
+
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+      <div class="trigger">
+        <!-- About -->
+
+        <!-- Blog -->
+        <!-- <a class="page-link" href="https://alexeyignatiev.github.io/blog/">blog</a> -->
+
+        <!-- Pages 
+        
+             <a class="page-link" href="slides.pdf">slides</a>
+
+            <a class="page-link" href="publication.html">related publications</a>
+
+            <a class="page-link" href="software.html">software</a> -->
+
+        <!-- CV link -->
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <!-- <h2 class="post-title-smaller">SAT Solver and Their Applications in Trustworthy Computing</h2> -->
+    <h3 class="post-subtitle">SAT Solver and Their Applications in Trustworthy Computing</h3>
+    <h5 class="post-description">Special Topics in Formal Methods</h5>
+    <h5 class="post-description">Timings: Tuesday and Friday: 2-3.30 pm</h5> 
+  </header>
+
+  <article class="post-content clearfix">
+     
+        <h4 class="point">What is this course about?</h4>
+        <p>
+            In this course, we will delve into the fascinating world of SAT solvers. SAT, or Boolean satisfiability, is a fundamental problem in computer science. At its core, the problem of Boolean satisfiability asks a simple question: given a Boolean formula, can we find an assignment of truth values to its variables that satisfies the formula? Boolean satisfiability is known to be NP-complete. However, modern SAT solvers offer efficient solutions capable of handling problems with tens of thousands of variables and millions of clauses in practical scenarios. </br>
+            
+           The beauty of SAT solvers lies in their efficiency. They employ sophisticated algorithms and techniques to efficiently explore the vast space of possible variable assignments, searching for a satisfying assignment. In this course, we will discover the secret behind modern SAT solvers, called conflict-driven clause learning (CDCL). It's like having a super-smart helper who learns from mistakes to solve problems faster!</br>
+
+We'll dive into how SAT solvers are used in real life, from explainable or certified AI, to verification and synthesis of automated systems, to optimization problems related to graphs. </p>
+  <h4 class="point">Outline</h4>
+      
+    <ol class="justified">
+            <li>
+                 Modelling with propositional logic, constraints encodings.
+            </li><br/>
+            <li>
+              Basic of SAT solving, including overview of conflict-driven clause learning (CDCL), and modern heuristics. 
+            </li><br/>
+            <li>
+                Recent applications: explainable and verifiable AI, verification and synthesis of automated systems, optimization problems related to graphs.
+            </li>	
+     </ol>
+
+<h4 class="point">Prerequisites</h4>
+<p> Recommended but not essential: Discrete Mathematical Structures and Logic for Computer Science.  </br>
+It is required to have a basic knowledge of propositional logic, algorithms, and data structures, as well as familiarity with complexity theory (concepts like NP-completeness should not be unfamiliar), and proficiency in at least one programming language, such as Python.  </p>    
+        
+<h4 class="point">To know more</h4>
+        <ol class="justified">
+            <li>
+                 <a href="https://books.google.co.in/books?hl=en&lr=&id=shLvAgAAQBAJ&oi=fnd&pg=PR1&dq=handbook+of+satisfiability&ots=n94hrVEwxv&sig=E66gbQ6VDldtTbjhm3tSOpfDdvc&redir_esc=y#v=onepage&q=handbook%20of%20satisfiability&f=false">Handbook of Satisfiability</a> (chapter 2 and 4): Edited by Armin Biere, Marijn Heule, Hans van Maaren and Toby Walsh.
+            </li><br/>
+            <li>
+            Solvers available from the SAT community can be found <a href="http://www.satlive.org/solvers/">here</a>. Moreover, a detailed documentation on SAT solvers's API in python (PySAT) can be found <a href="https://pysathq.github.io/docs/html/">here</a>.
+            </li><br/>
+            <li>
+              ACM article on (R)evoultion of SAT can be found <a href="https://cacm.acm.org/research/the-silent-revolution-of-sat/">here</a>.
+            </li>	
+     </ol>
+
+
+    </article>
+
+        </div>
+      </div>
+    </div>
+
+    </body>
+</html>
