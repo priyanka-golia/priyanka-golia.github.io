@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Summer School on Formal Verification and Program Synthesis</title>
+    <title>Winter School on Formal Verification and Program Synthesis</title>
     <style>
         /* Font and general styling */
         @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
@@ -89,15 +90,74 @@
             width: 100%;
             height: auto;
         }
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 2em;
-            }
-            header h3 {
-                font-size: 1em;
-            }
-        }
+      /* Container for the cards */
+.google-sheet-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+/* Individual card styling */
+.google-sheet-card .card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+}
+
+/* Add hover effect for better interaction */
+.google-sheet-card .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Title of the card */
+.google-sheet-card .card .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Description text inside the card */
+.google-sheet-card .card .card-description {
+    font-size: 14px;
+    color: #666;
+    padding: 15px;
+    line-height: 1.6;
+}
+
+/* Footer of the card (optional for links or further info) */
+.google-sheet-card .card .card-footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    font-size: 13px;
+    border-top: 1px solid #ddd;
+}
+
+/* Button inside the footer (for a link to the Google Sheet) */
+.google-sheet-card .card .card-footer a {
+    color: #fff;
+    background-color: #007bff;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.google-sheet-card .card .card-footer a:hover {
+    background-color: #0056b3;
+}
+
+
+
     </style>
 </head>
 <body>
@@ -121,7 +181,7 @@
         <img src="path_to_your_image.jpg" alt="CSE IIT Delhi" /> -->
 
         <section class="section">
-            <h2>About the Summer School</h2>
+            <h2>About the Winter School</h2>
             <p> We are excited to invite you to the Winter School on Formal Verification and Program Synthesis, hosted at CSE IIT Delhi from December 3rd to 6th, 2024. This workshop is designed to provide participants with a comprehensive overview of recent advancements in constraint solvers and automated reasoning, along with their cutting-edge applications in diverse fields such as the verification of deep neural networks, security, blockchains and synthesis.
                 The four-day workshop will feature a series of lectures and hands-on sessions led by <a href=https://subodhvsharma.github.io>Subodh Sharma</a>, <a href="https://kumarmadhukar.github.io">Kumar Madhukar</a>, and <a href = "https://priyanka-golia.github.io">Priyanka Golia </a>.
          
@@ -166,6 +226,13 @@
         <section id="programme" class="section">
             <h2>Programme</h2>
             <p>The detailed programme will be announced soon. Please check back later for updates.</p>
+            <div class="google-sheet-card">
+                <div class="card">
+                    <div class="card-title">Project Title</div>
+                    <div class="card-description">This is a brief description of the project from the Google Sheet.</div>
+                    <div class="card-footer">
+                <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTKIDYLjbch145Q5cNup4h7lLI74QKhzlKM2gH3oVKYinSx33MyWTWPOpCiU_lPQ9oj-UfaMdO2ocAx/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+            </div></div>
         </section>
 
         
