@@ -14,3 +14,72 @@
     
   </channel>
 </rss>
+link>
+    </image>
+    
+    <item>
+      <title>Functional Synthesis via Formal Methods and Machine Learning</title>
+      <link>/publication/golia-phdthesis/</link>
+      <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/golia-phdthesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synthesis with Explicit Dependencies</title>
+      <link>/publication/date23/</link>
+      <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/date23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Scalable Shannon Entropy Estimator</title>
+      <link>/publication/cav22/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/cav22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Quantitative Testing of Samplers</title>
+      <link>/publication/cp22/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/cp22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Engineering an Efficient Boolean Functional Synthesis Engine</title>
+      <link>/publication/iccad21/</link>
+      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/iccad21/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Designing Samplers is Easy: The Boon of Testers</title>
+      <link>/publication/fmcad21/</link>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/fmcad21/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Program Synthesis as Dependency Quantified Formula Modulo Theory</title>
+      <link>/publication/ijcai21/</link>
+      <pubDate>Fri, 30 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/ijcai21/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Manthan: A Data-Driven Approach for Boolean Function Synthesis</title>
+      <link>/publication/cav20-manthan/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/cav20-manthan/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
