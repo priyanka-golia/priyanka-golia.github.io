@@ -8,12 +8,31 @@
 
   <title>COL-750</title>
   <meta name="description" content="Priyanka's home page.">
+  <style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-family: Arial, sans-serif;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    th {
+        background-color: #f4f4f4;
+        font-weight: bold;
+    }
+    tr:nth-child(even) {
+        background-color: #e6f7ff;
+    }
+    </style>
 
  
   <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.207/distr/fira_code.css">
   <link rel="stylesheet" href="https://alexeyignatiev.github.io/assets/css/main.css">
- 
+   
 
 </head>
 
@@ -88,7 +107,10 @@ The course combines theory with practical tools like NuSMV and CBMC, showing how
 <h4 class="point">Suggested Books and Reference Material</h4>
 <ol class="justified">
   <li> [HR] Logic in Computer Science (Michael Huth and Mark Ryan) </li></br>
-  <li>[CGKPV] Model Checking (Edmund Clark, Orna Grumberg, Daniel Kroening, Doron Peled, and Helmut Veith)</li>
+  <li> [E] A Mathaematical Introduction to Logic (Herbert B. Enderton) </li></br>
+  <li> [CGKPV] Model Checking (Edmund Clark, Orna Grumberg, Daniel Kroening, Doron Peled, and Helmut Veith)</li></br>
+  <li> [BHMW] Handbook of Satisfiability (Edited by Armin Biere, Marijn Heule, Hans van Maaren and Toby Walsh)</li></br>
+  <li> [MB] Satisfiability Modulo Theories: Introduction and Applications (Leonardo De Moura anD Nikolaj Bjorner)</li></br>
 </ol>
 
 </h4>
@@ -102,8 +124,215 @@ The course combines theory with practical tools like NuSMV and CBMC, showing how
     This form is <b> anonymous </b> and will take less than 5 minutes to complete. We’d greatly appreciate your thoughts on each class
 </p>
 
-<h4 class="point">Lectures</h4>
-<ol class="justified">
+<h4 class="point">Lectures (Tentative list)
+</h4>
+<table>
+  <thead>
+      <tr>
+          <th>Lecture Date</th>
+          <th>Lecture Topics</th>
+          <th>Class Slides Link</th>
+          <th>Reference Materials</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td> 3rd Jan </td>
+          <td>Intro to Course (Non Technical)</td>
+          <td><a href="lectures/lect0.pdf">Class Slides</a></td>
+          <td>--</td>
+      </tr>
+      <tr>
+          <td> 7th Jan </td>
+          <td>Intro to Propositional Logic</td>
+          <td><a href="lectures/lect1.pdf">Class Slides</a></td>
+          <td>Chapters 1,2 of [HR]</td>
+      </tr>
+      <tr>
+          <td> 10th Jan </td>
+          <td>Constraint Encoding + Intro to SAT Solvers (Part 1)</td>
+          <td></td>
+          <td>Chapter 2 of [CHBW]</td>
+      </tr>
+      <tr>
+          <td> 16th Jan </td>
+          <td> SAT Solvers (Part 2)</td>
+          <td></td>
+          <td>Chapters 3, 4 of [CHBW]</td>
+      </tr>
+      <tr>
+        <td> 17th Jan </td>
+        <td> Intro to First Order Logic (Part 1)</td>
+        <td></td>
+        <td>Chapter 2 of [E]</td>
+      </tr>
+      <tr>
+        <td> 21st Jan </td>
+        <td>  First Order Logic (Part 2) + Intro to SMT</td>
+        <td></td>
+        <td> Chapter 2 of [E] and [NB]</td>
+      </tr>
+      <tr>
+        <td> 24th Jan </td>
+        <td>  From SAT to SMT</td>
+        <td></td>
+        <td>Chapter 11 of [CGKPV], and [NB]</td>
+      </tr>
+      <tr>
+        <td> 28th Jan </td>
+        <td> Quiz 1 + Tool Demos (SAT and SMT solvers)</td>
+        <td></td>
+        <td></td>
+      </tr>     
+      <tr>
+        <td> 31st Jan </td>
+        <td>Intro to Linear Temporal Logic (Part 1)</td>
+        <td></td>
+        <td> Chapter/Section 3.2 of [HR]</td>
+      </tr> 
+      <tr>
+        <td> 4th Feb </td>
+        <td>Linear Temporal Logic (Part 2)</td>
+        <td></td>
+        <td>Chapter/Section 3.2 of [HR]</td>
+      </tr> 
+      <tr>
+        <td> 7th Feb </td>
+        <td>Intro to Computation Tree Logic (Part 1) </td>
+        <td></td>
+        <td>Chapters/Sections 3.4 and 3.5 of [HR]</td>
+      </tr> 
+      <tr>
+        <td> 11th Feb </td>
+        <td> Computation Tree Logic (Part 2) </td>
+        <td></td>
+        <td>Chapters/Sections 3.4 and 3.5 of [HR]</td>
+      </tr> 
+      <tr>
+        <td> 14th Feb </td>
+        <td>Model Checking (Part 1)</td>
+        <td></td>
+        <td>Chapters/Sections 3.3 and 3.6 of [HR]</td>
+      </tr> 
+      <tr>
+        <td> 18th Feb </td>
+        <td> Tool Demos</td>
+        <td></td>
+        <td></td>
+      </tr> 
+      <tr>
+        <td> 21st Feb </td>
+        <td> No class -- Minor exams (as per semester schedule)</td>
+        <td></td>
+        <td></td>
+      </tr> 
+      <tr>
+        <td> 28th Feb </td>
+        <td>Discussion on Minor Exam</td>
+        <td></td>
+        <td></td>
+      </tr> 
+      <tr>
+        <td> 4th March </td>
+        <td> Model Checking (Part 2) </td>
+        <td></td>
+        <td>Chapters/Sections 3.4 and 3.5 of [HR]</td>
+      </tr> 
+      <tr>
+        <td> 7th March </td>
+        <td> No Classes (as per semester schedule)</td>
+        <td></td>
+        <td></td>
+      </tr> 
+      <tr>
+        <td> 10th March </td>
+        <td> Mid term break (as per semester schedule)</td>
+        <td></td>
+        <td></td>
+      </tr> 
+      <tr>
+        <td> 14th March </td>
+        <td> Mid term break (as per semester schedule)</td>
+        <td></td>
+        <td></td>
+      </tr> 
+      <tr>
+        <td> 18th March </td>
+        <td> BDD and BDD based Model Checking </td>
+        <td></td>
+        <td>Chapter 6 of [HR]</td>
+      </tr> 
+      <tr>
+        <td> 21st March </td>
+        <td> SAT based Model Checking</td>
+        <td></td>
+        <td>Chapter 10 of [CGKPV]</td>
+      </tr> 
+      <tr>
+        <td> 25th March </td>
+        <td> IC3 Algorithm (part 1)</td>
+        <td></td>
+        <td><a href="https://theory.stanford.edu/~arbrad/"> Aaron Bradley's Homepage</a></td>
+      </tr> 
+      <tr>
+        <td> 28th March </td>
+        <td> IC3 (part 2) + Intro to Hoare Logic</td>
+        <td></td>
+        <td>Chpater 4 of [HR]</td>
+      </tr> 
+      <tr>
+        <td> 1st April </td>
+        <td> Hoare Logic </td>
+        <td></td>
+        <td>Chpater 4 of [HR]</td>
+      </tr> 
+      <tr>
+        <td> 4th April </td>
+        <td> Quiz 2 + Tool Demos </td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td> 8th April </td>
+        <td> Introduction to Model Counters (Part 1) </td>
+        <td></td>
+        <td>Chapter 20 of [BHMW] </td>
+      </tr>
+      <tr>
+        <td> 11th April </td>
+        <td> Model Counters + Samplers </td>
+        <td></td>
+        <td> Chapter 20 of [BHMW] </td>
+      </tr>
+      <tr>
+        <td> 15th April </td>
+        <td>UNSAT Core</td>
+        <td></td>
+        <td><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZFKL2zcAAAAJ&citation_for_view=ZFKL2zcAAAAJ:zYLM7Y9cAGgC"> MUS/MSS enumerations</a></td>
+      </tr>
+      <tr>
+        <td> 18th April </td>
+        <td>Concluding all topics + Tool Demos</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td> 22th April </td>
+        <td>  Reacent Paper on Formal Verification </td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td> 25th April </td>
+        <td> Recent Paper on Formal Verification</td>
+        <td></td>
+        <td></td>
+      </tr>
+
+
+  </tbody>
+</table> </br>
+<!-- <ol class="justified">
             
             <li>
               <a href="lectures/lect0.pdf">[Introduction to course.]</a> 
@@ -111,7 +340,7 @@ The course combines theory with practical tools like NuSMV and CBMC, showing how
             <li>
               <a href="lectures/lect1.pdf">[propositional logic.]</a>  Reference Material: chapter 1,2 of [HR].
             </li>
-</ol>
+</ol> --->
 <h4 class="point"> Evaluation Policy</h4>
 <ol class="justified">
   <li>
