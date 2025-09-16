@@ -12,7 +12,7 @@ collections:
     create: true  # Allow users to create new documents in this collection
     fields:  # The fields each document in this collection have
       - {label: "Display name (such as your full name)", name: "title", widget: "string"}
-      - {label: "Position or tagline (such as Professor of AI)", name: "role", widget: "string", required: false}
+      # {label: "Position or tagline (such as Professor of AI)", name: "role", widget: "string", required: false}
       - label: "Avatar (upload an image named `avatar.jpg/png`)"
         name: "avatar_filename"
         widget: "image"
@@ -50,7 +50,7 @@ collections:
         widget: list
         fields:
           - {label: Organization, name: name, widget: string, required: true}
-          - {label: Link, name: url, widget: string, required: false}
+          - {label: Link, widget: string, required: false}
       - label: "Education"
         name: "education"
         required: false

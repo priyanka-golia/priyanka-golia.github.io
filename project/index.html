@@ -252,10 +252,80 @@
   
 
 
-  
+  <style>
+ 
+:root {
+  --team-left-col: 400px;    
+  --team-gap: 20px;          
+  --card-min: 220px;         
+  --card-gap: 16px;          
+}
 
+ 
+section#research-group .container {
+  position: relative;
+  padding-left: calc(var(--team-left-col) + var(--team-gap));
+  display: block !important;  
+}
 
+ 
+section#research-group .section-heading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--team-left-col);
+  text-align: left !important;
+  margin: 0 !important;
+}
 
+ 
+section#research-group .row {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--card-gap);
+  margin-left: 0 !important;
+  text-align: left !important;
+}
+
+ 
+section#research-group .row > .col-md-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+ 
+section#research-group .row > [class*="col-"]:not(.col-md-12) {
+  flex: 1 1 var(--card-min);    
+  max-width: 100%;
+  min-width: var(--card-min);
+  box-sizing: border-box;
+}
+
+ 
+section#research-group .portrait { margin: 0.25rem auto; }
+section#research-group .avatar { width: 90px; height: 90px; }
+section#research-group .portrait-title,
+section#research-group .people-person {
+  text-align: left !important;
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: break-word !important;   
+}
+
+ 
+section#research-group .col-md-12 > h2.mb-4 {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+ 
+@media (max-width: 992px) {
+  section#research-group .container { padding-left: 0; }
+  section#research-group .section-heading { position: static; width: auto; }
+}
+</style>
 
 
   <title>Projects | Priyanka</title>
@@ -379,6 +449,35 @@
 
         <li class="nav-item">
           <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#research-group"><span>Research Group</span></a>
         </li>
 
         

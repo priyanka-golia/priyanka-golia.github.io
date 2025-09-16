@@ -5,12 +5,52 @@
     <link>/talk/</link>
       <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>News</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 07 Aug 2024 14:15:00 +0530</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 16 Sep 2025 14:15:00 +0530</lastBuildDate>
     <image>
       <url>/images/icon_hubc9621be2d9c7eb34fbb96ddfc2f8546_4058026_512x512_fill_lanczos_center_2.png</url>
       <title>News</title>
       <link>/talk/</link>
     </image>
+    
+    <item>
+      <title>We are organizing the ACM India IndiCS seminar on &lt;a href=&#34;https://indics-synthesis.github.io/&#34;&gt; Automated Synthesis&lt;/a&gt;, together with Supratik Chakraborty, Aalok Thakkar, and Kumar Madhukar. </title>
+      <link>/talk/16092025/</link>
+      <pubDate>Tue, 16 Sep 2025 14:15:00 +0530</pubDate>
+      <guid>/talk/16092025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>We are organizing workshop on   &lt;a href=&#34;https://mccompetition.org/2025/mcw_description&#34;&gt; Counting, Sampling, and Synthesis&lt;/a&gt;, together with Paulius Dilkas.</title>
+      <link>/talk/02072025/</link>
+      <pubDate>Wed, 02 Jul 2025 14:15:00 +0530</pubDate>
+      <guid>/talk/02072025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Together with Jie An, I will be serving as the ATVA 2025 Artifact Evaluation Chair. I look forward to reviewing your systems! Check out the details at &lt;a href=&#34;https://conf.researchr.org/track/atva-2025/atva-2025-artifact-evaluation&#34;&gt;ATVA-AE 2025&lt;/a&gt;</title>
+      <link>/talk/02042025/</link>
+      <pubDate>Wed, 02 Apr 2025 14:15:00 +0530</pubDate>
+      <guid>/talk/02042025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Invited to give an early career researcher talk at  &lt;a href=&#34;https://event.india.acm.org/arcs/home/&#34;&gt;(ARCS)-ACM India event. &lt;/a&gt;</title>
+      <link>/talk/02022025/</link>
+      <pubDate>Sun, 02 Feb 2025 14:15:00 +0530</pubDate>
+      <guid>/talk/02022025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Extremely happy and deeply grateful to have been chosen as the recipient of the &lt;a href=&#34;https://awards.acm.org/award-recipients/golia_2507421&#34;&gt;ACM India 2024 Doctoral Dissertation Award.&lt;/a&gt;</title>
+      <link>/talk/02122024/</link>
+      <pubDate>Mon, 02 Dec 2024 14:15:00 +0530</pubDate>
+      <guid>/talk/02122024/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>I will be giving a keynote talk at [ICTAC-24](https://ictac2024.cs.ait.ac.th) on Automated Synthesis</title>

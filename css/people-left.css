@@ -1,0 +1,19 @@
+/* Left-align the People (Team) widget grid */
+.people-widget.justify-content-center { 
+  justify-content: flex-start !important; /* overrides Bootstrap centering */
+}
+
+/* Optional: left-align headings and card text within the section */
+.people-widget .section-heading,
+.people-widget .section-heading h1,
+.people-widget .section-heading p,
+.people-widget .people-person,
+.people-widget .portrait-title,
+.people-widget .portrait-title h2 {
+  text-align: left !important;
+  margin-left: 0;
+},
+.people-widget .portrait-title h3 {
+  text-align: left !important;
+  margin-left: 0;
+}
